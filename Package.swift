@@ -4,6 +4,10 @@
 import PackageDescription
 
 let package = Package(
+     platforms: [.macOS(.v10_12),
+                 .iOS(.v10),
+                 .tvOS(.v10),
+                 .watchOS(.v3)],
     name: "RNCryptor",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
